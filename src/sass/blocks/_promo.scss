@@ -1,0 +1,86 @@
+.promo {
+    min-height: 680px;
+    padding: 23px 0 81px 0;
+    background: url('../img/main-bg.jpg') center center / cover no-repeat;
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__list {
+        display: flex;
+        width: 600px;
+        justify-content: space-around;
+    }
+    &__list-item {
+        display: block;
+    }
+    &__link {
+        font-size: 15px;
+        text-align: left;
+        color: #ffffff;
+        text-decoration: none;
+        border-right: 1px dotted #fff;
+        padding-right: 6px;
+        &:hover {
+            color: $main-color;
+        }
+        
+    }
+    span {
+        display: block;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: right;
+        color: #ffffff;
+    }
+    &__number {
+        display: block;
+        margin-top: 5px;
+        font-size: 19px;
+        font-weight: bold;
+        text-align: right;
+        color: #ffffff;
+        &:hover {
+            color: $main-color;
+            text-decoration: none;
+        }
+    }
+    &__company {
+        margin-top: 10px;
+        font-size: 24px;
+        font-weight: 300;
+        text-align: center;
+        color: #ffffff;
+    }
+    &__header {
+        margin-top: 26px;
+        font-size: 72px;
+        font-weight: bold;
+        font-stretch: condensed;
+        text-align: center;
+        color: $main-color;
+    }
+    &__subheader {
+        margin-top: 9px;
+        font-size: 42px;
+        font-stretch: condensed;
+        text-align: center;
+        color: #ffffff;
+    }
+    &__items{
+        margin-top: 27px;
+    }
+    &__item-image {
+        display: block;
+        margin: 0 auto;
+    }
+    &__item-descr {
+        margin-top: 13px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: center;
+        color: #ffffff;
+    }
+}

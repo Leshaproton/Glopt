@@ -1,0 +1,37 @@
+.underline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 38px;
+}
+.line {
+    width: 530px;
+    height: 1px;
+    background-color: grey;
+    &_orange {
+        margin: 20px auto 17px auto;
+        background-color: $main-color;
+        width: 136px;
+    }
+}
+.circle {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background-color: grey;
+    &_border {
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0,0,0,0);
+        width: 102px;
+        height: 102px;
+        border-radius: 100%;
+        border: 1px solid #fff;
+        &_orange {
+            border: 1px solid $main-color;
+            margin-top: 20px;
+        }
+    }
+}

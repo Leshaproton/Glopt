@@ -1,0 +1,21 @@
+.consultation {
+    min-height: 400px;
+    padding: 56px 0 58px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 17px;
+    }
+    input {
+        margin-right: 6px;
+        padding: 18px 28px;
+        width: 268px;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: left;
+        color: rgba(16, 16, 16, 0.7);
+        border: solid 1px rgba(0, 0, 0, 0.21);
+        border-radius: 45px;
+    }
+}
